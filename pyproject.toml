@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "property-graphs-llama-index"
+version = "0.1.0"
+description = ""
+authors = ["Arman Tunga <armantunga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-index-core = "^0.10.55"
+llama-index-llms-anthropic = "^0.1.15"
+llama-index-embeddings-openai = "^0.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
