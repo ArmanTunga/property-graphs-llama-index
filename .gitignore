@@ -165,5 +165,5 @@ cython_debug/
 # Stored Index (LLamaIndex disk storage)
 storage/
 
-# Add lib folder which is created by index.property_graph_store.save_networkx_graph(name="./kg.html")
+# Add lib folder which is created by index.property_graph_store.save_networkx_graph(name="./pg.html")
 lib/
