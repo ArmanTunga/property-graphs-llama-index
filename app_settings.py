@@ -13,5 +13,12 @@ class AppSettings(BaseSettings):
     # Anthropic
     anthropic_api_key: str
 
+    # Cohere
+    cohere_api_key: str
+
+    # Additional settings
+    llm_model_name: str = "claude-3-5-sonnet-20240620"
+    embed_model_name: str = "text-embedding-3-small"
+
 
 settings = AppSettings()  # type: ignore[call-arg]
