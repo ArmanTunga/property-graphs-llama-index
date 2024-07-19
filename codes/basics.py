@@ -22,8 +22,8 @@ os.environ["OPENAI_API_KEY"] = settings.openai_api_key
 os.environ["ANTHROPIC_API_KEY"] = settings.anthropic_api_key
 
 # Initialize LLM and Embedding models
-llm = Anthropic(model="claude-3-5-sonnet-20240620")
-embed_model = OpenAIEmbedding(model="text-embedding-3-small")
+llm = Anthropic(model=settings.llm_model_name)
+embed_model = OpenAIEmbedding(model=settings.embed_model_name)
 
 # Load data into index
 PERSIST_DIR = "./storage"
