@@ -61,7 +61,7 @@ else:
         StorageContext.from_defaults(persist_dir="./storage")
     )
 
-index.property_graph_store.save_networkx_graph(name="./kg.html") # IF PACKAGE "pyvis" not installed, then it Raises ModuleNotFoundError: No module named 'pyvis'
+index.property_graph_store.save_networkx_graph(name="./pg.html") # IF PACKAGE "pyvis" not installed, then it Raises ModuleNotFoundError: No module named 'pyvis'
 
 # Retrieval
 retriever = index.as_retriever(
