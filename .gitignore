@@ -167,3 +167,6 @@ storage/
 
 # Add lib folder which is created by index.property_graph_store.save_networkx_graph(name="./pg.html")
 lib/
+
+# Add plugings folder which is created by neo4j db while using it locally
+plugins/
